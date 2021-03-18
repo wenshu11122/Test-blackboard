@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/band/band",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/skin/skin",
+    "pages/nullTip/nullTip",
+    "pages/list/list",
+    "pages/details/cet/page1",
+    "pages/details/ncre/page2",
+    "pages/details/kaoyan/page3",
+    "pages/details/jiaoshizigekaoshi/page4",
+    "pages/details/TOEFL/page5",
+    "pages/details/IELTS/page6",
+    "pages/details/WSK/page7",
+    "pages/details/NIT/page8",
+    "pages/details/PETS/page9",
+    "pages/links/links"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b5c4b1",
+    "navigationBarTitleText": "公告栏",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7a7281",
+    "selectedColor": "#965454",
+    "borderStyle": "black",
+    "backgroundColor": "#e0e5bf",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/index_icon/35.png",
+        "selectedIconPath": "/images/index_icon/39.png"
+      },
+      {
+        "pagePath": "pages/band/band",
+        "text": "公告栏",
+        "iconPath": "/images/index_icon/64.png",
+        "selectedIconPath": "/images/index_icon/68.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的收藏",
+        "iconPath": "/images/index_icon/user.png",
+        "selectedIconPath": "/images/index_icon/users.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
