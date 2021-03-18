@@ -1,0 +1,16 @@
+<view class="hmly-performance-content" wx:for="{{performance}}" wx:key="index">
+    <!-- 序号 -->
+    <view class="hmly-performance-index">{{index+1}}</view>
+    <!-- 节目标题 -->
+    <view class="hmly-performance-info">
+      <view class="hmly-performance-info-top">
+        <view class="little">{{item.name}}</view>
+        <view style="color:#fefefe">{{item.time}}</view>
+      </view>
+      <!-- 播放次数和时间 -->
+      <view class="hmly-performance-info-bottom">
+        <view style="color:#fefefe"><button bindtap="copyText" class="bs" ><text class="icon-video"></text>{{item.link}}</button></view>
+
+      </view>
+    </view>
+  </view>

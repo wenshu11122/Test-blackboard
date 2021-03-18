@@ -1,0 +1,14 @@
+/* pages/details/page1/page1.wxss */
+.answer-button1 {
+  display: block;
+  margin-top: 2vh;
+  font-size: 5vh;
+  width: 330px;
+  color: #f0f0f0;
+  background-color: #c1cbd7;
+  border-color: #c1cbd7;
+  border: none;
+  border-radius: 15rpx;
+}
+.font-break {
+  word-break:break-all;}

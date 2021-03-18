@@ -1,0 +1,4 @@
+<view><button class="answer-button6" bindtap='go' data-content="{{ content }}">考试官网</button></view>
+<view><button class="answer-button6" bindtap='go2' data-baoming="{{ baoming }}">考试报名</button></view>
+<view><button class="answer-button6" bindtap='go3' data-chaxun="{{ chaxun }}">查询成绩</button></view>
+<view><button class="answer-button6" bindtap='go4' data-zhunkaozheng="{{ zhunkaozheng }}">查看准考证号</button></view>

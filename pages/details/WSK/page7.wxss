@@ -1,0 +1,11 @@
+.answer-button7 {
+  display: block;
+  margin-top: 2vh;
+  font-size: 5vh;
+  width: 330px;
+  color: #f0f0f0;
+  background-color: #a6a6a8;
+  border-color: #a6a6a8;
+  border: none;
+  border-radius: 15rpx;
+}

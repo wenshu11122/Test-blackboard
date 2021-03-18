@@ -1,0 +1,12 @@
+/* pages/details/page3/page3.wxss */
+.answer-button3 {
+  display: block;
+  margin-top: 2vh;
+  font-size: 5vh;
+  width: 330px;
+  color: #f0f0f0;
+  background-color: #939391;
+  border-color: #939391;
+  border: none;
+  border-radius: 15rpx;
+}

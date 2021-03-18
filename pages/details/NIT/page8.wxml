@@ -1,0 +1,3 @@
+<view><button class="answer-button8" bindtap='go' value='home' data-content="{{ content }}">考试官网</button></view>
+<view><button class="answer-button8" bindtap='go2' value='home' data-baoming="{{ baoming }}">考试报名</button></view>
+<view><button class="answer-button8" bindtap='go3' value='home' data-chaxun="{{ chaxun }}">查询成绩</button></view>

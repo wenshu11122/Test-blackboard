@@ -1,0 +1,3 @@
+<view class='text-wrapper font-break'>复制链接后在浏览器中搜索：{{contents}} </view>
+
+<view  bindtap='copyText' data-text="{{contents}}">长按《复制》按钮进行操作</view>

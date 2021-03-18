@@ -1,0 +1,5 @@
+/* pages/links/links.wxss */
+.font-break {
+
+  word-break:break-all;
+}

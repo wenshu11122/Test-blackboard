@@ -1,0 +1,31 @@
+<view class="hmly-swiper-container">
+  <swiper class="hmly-swiper" autoplay="true" circular="true" 
+    interval="5000" easing-function="easeOutCubic" indicator-dots="true"
+    current="{{swiperCurren}}" >
+    <!-- 轮播图图片 -->
+    <swiper-item class="hmly-swiper-item" wx:for="{{imgList}}" wx:key="index">
+      <image src="{{item}}"></image>
+    </swiper-item>
+  </swiper>
+  </view>>
+<view>
+      <button bindtap="jumppage1" class="answer-button1">大学英语四、六级考试(CET) 
+</button>
+      <button bindtap="jumppage2" class="answer-button2">全国计算机等级考试(NCRE)
+</button>
+      <button bindtap="jumppage3" class="answer-button3">研究生考试
+</button>
+      <button bindtap="jumppage4" class="answer-button4">中小学教师资格考试
+</button>
+      <button bindtap="jumppage5" class="answer-button5">托福(TOEFL)
+</button>
+      <button bindtap="jumppage6" class="answer-button6">雅思(IELTS)
+</button>
+      <button bindtap="jumppage7" class="answer-button7">全国外语水平考试(WSK)
+</button>
+      <button bindtap="jumppage8" class="answer-button8">全国计算机应用水平考试(NIT)
+</button>
+      <button bindtap="jumppage9" class="answer-button9">全国英语等级考试(PETS)
+</button>
+
+  </view>
